@@ -17,7 +17,7 @@ This repository contains an optimized prompt for generating clean and testable P
 
 ## Example
 
-See `examples/example1.md` for sample tasks and outputs.
+See `examples` folder for sample tasks and outputs.
 
 ## License
 
