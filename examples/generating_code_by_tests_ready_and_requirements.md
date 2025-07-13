@@ -27,6 +27,7 @@ by using this code "str(tzlocal.get_localzone())"
 if exception will catch use return "UTC" value
 
 Use this tests:
+```python
 import pytest
 import sys
 
@@ -71,6 +72,7 @@ def test_attribute_error(monkeypatch):
     # Patch _warn to avoid printing during test
     monkeypatch.setattr("your_module._warn", lambda msg, e: None)
     assert _get_valid_timezone() == "UTC"
+```
 
 ## Response Code:
 
